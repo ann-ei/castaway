@@ -1,0 +1,22 @@
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 43px 50px;
+}
+.header_logo {
+  width: 160px;
+}
+.header_nav_list {
+  display: flex;
+}
+.header_nav_item {
+  margin-left: 40px;
+}
+.header_nav_link {
+  transition: all 100ms linear;
+  font-size: 17px;
+  font-weight: 400;
+  &:hover {
+    color: #118da8;
+  }
+}
