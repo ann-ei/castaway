@@ -1,0 +1,95 @@
+.episodes_top_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 65px;
+}
+.episodes_title {
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 2.88px;
+  line-height: 1.2;
+}
+
+.episodes_all_link {
+  background-color: #118da8;
+  padding: 12px 20px;
+  border-radius: 6px;
+  color: #fff;
+  border: 1px solid #118da8;
+  transition: all 100ms linear;
+
+  &:hover {
+    color: #fff;
+    border: 1px solid #118da8;
+    background-color: transparent;
+  }
+}
+
+.episodes_item_img_wrap {
+  margin-right: 53px;
+}
+.episodes_item_img {
+  width: 390px;
+}
+.episodes_item {
+  display: flex;
+  padding: 40px;
+  background-color: #000;
+  border-radius: 32px;
+  margin-bottom: 60px;
+}
+.episodes_item_tag_item {
+  background-color: #191919;
+  padding: 5px 16px;
+  display: inline-block;
+  border-radius: 6px;
+  transition: all 100ms linear;
+  margin-bottom: 49px;
+
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+.episodes_item_tag_text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.episodes_item_subtitle {
+  color: #118da8;
+  font-size: 17px;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+.episodes_item_title {
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 28px;
+  line-height: 1.1;
+  letter-spacing: 2.56px;
+}
+.episodes_item_descr {
+  color: rgb(255, 255, 255, 0.7);
+  font-size: 22px;
+  margin-bottom: 22px;
+  line-height: 1.5;
+}
+.episodes_item_button {
+  padding: 12px 20px;
+  border-radius: 6px;
+  background-color: #118da8;
+  color: #fff;
+  transition: all 100ms linear;
+  line-height: 1.5;
+  border: 1px solid #118da8;
+  transition: all 100ms linear;
+
+  &:hover {
+    color: #fff;
+    border: 1px solid #118da8;
+    background-color: transparent;
+  }
+}
