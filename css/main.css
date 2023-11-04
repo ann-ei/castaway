@@ -761,4 +761,54 @@ body .invisible-heading {
   color: #fff;
   border: 1px solid #118da8;
   background-color: transparent;
+}
+
+.rewiews_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -16px;
+  margin-top: -16px;
+}
+
+.rewiews_item_wrap {
+  padding: 55px 50px;
+}
+
+.rewiews_item {
+  background-color: #000;
+  border-radius: 32px;
+  -ms-flex-preferred-size: calc(33.3333333333% - 16px);
+      flex-basis: calc(33.3333333333% - 16px);
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.rewiews_stars_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.rewiews_img {
+  width: 18px;
+  height: 17px;
+  margin-right: 5px;
+}
+
+.rewiews_text {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.rewiews_author {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.6980392157);
 }/*# sourceMappingURL=main.css.map */
