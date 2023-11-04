@@ -811,4 +811,73 @@ body .invisible-heading {
   font-weight: 400;
   line-height: 1.2;
   color: rgba(255, 255, 255, 0.6980392157);
+}
+
+.footer {
+  padding: 60px;
+}
+
+.footer_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_logo_wrap {
+  margin-right: 240px;
+}
+
+.footer_logo_link {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer_logo {
+  width: 223px;
+  height: 45px;
+}
+
+.footer_logo_social_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_logo_social_item {
+  margin-right: 10px;
+}
+
+.footer_logo_social_img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer_nav_list {
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-right: 110px;
+}
+
+.footer_nav_item {
+  margin-bottom: 10px;
+}
+
+.footer_info_list {
+  font-size: 17px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.footer_info_item {
+  margin-bottom: 10px;
+}
+
+.footer_nav_link:hover {
+  text-decoration: underline;
+}
+
+.footer_info_link:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
